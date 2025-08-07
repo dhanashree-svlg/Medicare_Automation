@@ -16,7 +16,7 @@ public class SignUpTest extends BaseClass{
 	{
 
 		SignupPage sp = new SignupPage();
-		sp.SignupFunction("Anika", "Roy", "anika12@admin.com","9003056133","Anika@123","Anika@123");
+		sp.SignupFunction("Anika", "Roy", "anika15@admin.com","9003056133","Anika@123","Anika@123");
 		Thread.sleep(5000);
 		sp.SignupAddress("abcdefghij", "klmnopqrst", "Bangalore", "560004", "Karnataka", "India");
 		Thread.sleep(5000);

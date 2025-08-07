@@ -3,6 +3,7 @@
 <suite name="Simplilearn">
   <test thread-count="5" name="SmokeTest">
     <classes>
+      <class name="medicare_test.SignUpTest"/>
       <class name="medicare_test.LoginAndAddtoCartTest"/>
     </classes>
   </test> <!-- Test -->

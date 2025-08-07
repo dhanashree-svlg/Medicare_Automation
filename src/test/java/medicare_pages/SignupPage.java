@@ -35,8 +35,8 @@ public class SignupPage {
 	@FindBy(xpath = "//input[@name=\"confirmPassword\"]")
 	WebElement ConfirmPassword;
 
-	@FindBy(xpath = "//input[@id=\"role2\"]")
-	WebElement SelectRole;
+	//@FindBy(xpath = "//input[@id=\"role2\"]")
+	//WebElement SelectRole;
 
 	@FindBy(xpath = "//button[@class=\"btn btn-primary\"]")
 	WebElement NextBillingBtn;
@@ -82,7 +82,7 @@ public class SignupPage {
 		ContactNumber.sendKeys(ContactNumberVal);
 		Password.sendKeys(PasswordVal);
 		ConfirmPassword.sendKeys(ConfirmPasswordVal);
-		SelectRole.click();
+		//SelectRole.click();
 		NextBillingBtn.click();
 	}
 

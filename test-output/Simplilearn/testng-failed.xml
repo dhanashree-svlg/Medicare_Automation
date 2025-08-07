@@ -3,6 +3,12 @@
 <suite name="Failed suite [Simplilearn]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SmokeTest(failed)">
     <classes>
+      <class name="medicare_test.SignUpTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SignupSuccessTest"/>
+        </methods>
+      </class> <!-- medicare_test.SignUpTest -->
       <class name="medicare_test.LoginAndAddtoCartTest">
         <methods>
           <include name="TearDown"/>
